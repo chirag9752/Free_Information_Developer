@@ -1,0 +1,38 @@
+Server-Side Rendering (SSR): -> 
+
+Imagine you're building a website with React. Normally, when someone visits your site, their browser downloads the HTML, CSS, and JavaScript files, and then the JavaScript runs in the browser to generate and display the content.
+
+With server-side rendering (SSR), instead of sending just JavaScript files to the browser, the server also generates the HTML for each page and sends that HTML to the browser. So when someone visits your site, they instantly see the fully rendered page, even before any JavaScript is executed.
+
+The benefits of SSR include faster initial load times, better search engine optimization (SEO), and improved performance on devices with slow internet connections.
+
+
+Static Site Generation (SSG): -> 
+
+Static site generation (SSG) is a bit different. Instead of generating HTML on the server each time someone visits a page, SSG generates HTML files for each page at build time.
+
+So when you build your website, all the pages are pre-rendered as static HTML files. When someone visits your site, they receive these static HTML files directly, without any need for server-side processing.
+
+The benefits of SSG are similar to SSR, including fast load times and good SEO. Additionally, SSG allows you to deploy your site as static files, which can be served directly from a content delivery network (CDN), further improving performance.
+
+In summary, SSR and SSG are both techniques for improving the performance and SEO of your website. SSR generates HTML on the server each time someone visits a page, while SSG generates HTML files at build time and serves them directly to visitors. Both techniques have their own advantages and use cases, depending on the requirements of your project.Server-Side Rendering (SSR):
+
+Imagine you're building a website with React. Normally, when someone visits your site, their browser downloads the HTML, CSS, and JavaScript files, and then the JavaScript runs in the browser to generate and display the content.
+
+With server-side rendering (SSR), instead of sending just JavaScript files to the browser, the server also generates the HTML for each page and sends that HTML to the browser. So when someone visits your site, they instantly see the fully rendered page, even before any JavaScript is executed.
+
+The benefits of SSR include faster initial load times, better search engine optimization (SEO), and improved performance on devices with slow internet connections.
+
+Static Site Generation (SSG):
+
+Static site generation (SSG) is a bit different. Instead of generating HTML on the server each time someone visits a page, SSG generates HTML files for each page at build time.
+
+So when you build your website, all the pages are pre-rendered as static HTML files. When someone visits your site, they receive these static HTML files directly, without any need for server-side processing.
+
+The benefits of SSG are similar to SSR, including fast load times and good SEO. Additionally, SSG allows you to deploy your site as static files, which can be served directly from a content delivery network (CDN), further improving performance.
+
+
+
+
+summary : 
+In summary, SSR and SSG are both techniques for improving the performance and SEO of your website. SSR generates HTML on the server each time someone visits a page, while SSG generates HTML files at build time and serves them directly to visitors. Both techniques have their own advantages and use cases, depending on the requirements of your project.
